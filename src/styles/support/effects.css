@@ -1,0 +1,5 @@
+@import "./colors.css";
+
+:root {
+  --drop--shadow: 98px 8px 0px 0px var(--base-100);
+}

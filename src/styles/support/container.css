@@ -1,0 +1,21 @@
+@import "./measurement.css";
+
+.container {
+  width: 100%;
+  padding-inline: var(--screen-margin);
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: var(--grid-gap);
+  padding-inline: var(--screen-margin);
+  width: 100%;
+}
+
+/* TABLETS */
+@media (max-width: 1000px) {
+}
+/* MOBILE */
+@media (max-width: 560px) {
+}

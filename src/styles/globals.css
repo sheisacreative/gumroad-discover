@@ -1,0 +1,87 @@
+@import "./support/reset.css";
+@import "./support/typography.css";
+@import "./support/colors.css";
+@import "./support/measurement.css";
+@import "./support/effects.css";
+@import "./support/container.css";
+@import "./support/transitions.css";
+
+/* THEME TRANSITION */
+* {
+  transition-property: background-color, border-color;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+/* SMOOTH SCROLL */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  /* DEFAULT BACKGROUND COLOR */
+  background-color: var(--neutral-0);
+
+  /* TODO: Turn on text-wrap balance by the end */
+  /* Better Text Wrap (**Still with low support**) */
+  /* text-wrap: balance; */
+}
+
+/* MAKE IMAGE RESPONSIVE */
+img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  display: block;
+}
+
+/* LINK STYLES */
+/* Reset a */
+a {
+  color: var(--neutral-60);
+  /* color: var(--neutral-60);
+  text-decoration: none;
+  background-image: linear-gradient(var(--secondary-60), var(--secondary-60));
+  background-size: 0% 0.1em;
+  background-position-y: 100%;
+  background-position-x: 0%;
+  background-repeat: no-repeat;
+  transition: background-size 0.2s ease-in-out; */
+}
+
+a:visited {
+  /* color: var(--neutral-60); */
+}
+
+a:hover,
+a:active {
+  /* color: var(--secondary-100);
+  background-size: 100% 0.1em; */
+}
+
+/* Link */
+.link {
+  text-decoration: none;
+  color: var(--secondary-100);
+  font-weight: 600;
+  position: relative;
+  z-index: 0;
+}
+
+.link::before {
+  content: "";
+  background-color: var(--secondary-alpha-24);
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  width: 100%;
+  height: 2px;
+  z-index: -1;
+  transition: all 0.3s ease-in-out;
+}
+
+.link:hover::before {
+  bottom: 0;
+  height: 100%;
+  background-color: var(--secondary-alpha-8);
+}
