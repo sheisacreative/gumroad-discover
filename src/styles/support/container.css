@@ -7,7 +7,7 @@
   padding-inline: var(--sp-40);
 }
 
-.grid-3 {
+.grid-auto {
   width: 100%;
   margin: 0 auto;
   max-width: var(--max-column);
@@ -16,6 +16,12 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   gap: var(--grid-gap);
+}
+
+.grid-auto-inline {
+  display: grid;
+  gap: var(--grid-gap);
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
 }
 
 /* TABLETS */

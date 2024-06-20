@@ -1,0 +1,24 @@
+.card {
+  background-color: var(--base-0);
+  border: var(--border-small);
+}
+
+.image {
+  width: 100%;
+}
+
+.content {
+  padding: var(--sp-16);
+}
+
+.userContainer {
+  display: flex;
+  gap: var(--sp-8);
+  align-items: center;
+}
+
+.userPhoto {
+  width: var(--sp-32);
+  height: var(--sp-32);
+  border-radius: var(--border-radius-full);
+}

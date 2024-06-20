@@ -6,7 +6,7 @@ import styles from "./search-bar.module.css";
 
 export default async function SearchBar() {
   return (
-    <div className={styles.searchContainer}>
+    <section className={styles.searchContainer}>
       <div className="container">
         {/* Search Bar */}
         <InputSearch
@@ -23,6 +23,6 @@ export default async function SearchBar() {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 }

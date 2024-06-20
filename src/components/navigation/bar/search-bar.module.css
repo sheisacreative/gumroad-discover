@@ -1,6 +1,7 @@
 .searchContainer {
   background-color: var(--base-20);
   padding-block: var(--sp-40);
+  border-bottom: var(--border-medium);
 }
 
 .tags {
