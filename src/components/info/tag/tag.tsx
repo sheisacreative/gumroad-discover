@@ -1,7 +1,17 @@
-export default async function Tag() {
+import styles from "./tag.module.css";
+
+type TagProps = {
+  name: string;
+  isActive?: boolean;
+};
+
+export default async function Tag({
+  name = "Tag",
+  isActive = false,
+}: TagProps) {
   return (
-    <div>
-      <h1>Tag</h1>
-    </div>
+    <button className={`${styles.tag} ${isActive && styles.isActive}`}>
+      {name}
+    </button>
   );
 }

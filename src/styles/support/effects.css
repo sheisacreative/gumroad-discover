@@ -1,7 +1,11 @@
 @import "./colors.css";
 
 :root {
+  /* Shadow */
   --drop--shadow: 98px 8px 0px 0px var(--base-100);
+
+  /* Border */
+  --border-small: solid 1px var(--base-100);
   --border-medium: solid 2px var(--base-100);
   --border-large: solid 4px var(--base-100);
 }

@@ -39,7 +39,7 @@ export default async function NavigationBar() {
       {/* Buttons */}
       <div className={styles.buttonGroup}>
         <ButtonOutline
-          text="Start Selling"
+          text="Login"
           href="#"
           hasBottomBorder={false}
           hasTopBorder={false}

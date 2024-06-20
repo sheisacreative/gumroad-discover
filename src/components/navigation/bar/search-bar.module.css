@@ -1,0 +1,9 @@
+.searchContainer {
+  background-color: var(--base-20);
+  padding-block: var(--sp-40);
+}
+
+.tags {
+  display: flex;
+  gap: var(--sp-8);
+}

@@ -6,7 +6,6 @@ type TagProps = {
 };
 
 export const tags: TagProps[] = [
-  { id: uuidv4(), name: "All" },
   { id: uuidv4(), name: "3D" },
   { id: uuidv4(), name: "Business & Money" },
   { id: uuidv4(), name: "Comics & Graphic Novels" },

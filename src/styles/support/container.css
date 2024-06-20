@@ -3,16 +3,19 @@
 .container {
   width: 100%;
   max-width: var(--max-column);
+  margin: 0 auto;
   padding-inline: var(--sp-40);
 }
 
 .grid-3 {
+  width: 100%;
+  margin: 0 auto;
+  max-width: var(--max-column);
+  padding-inline: var(--sp-40);
+
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   gap: var(--grid-gap);
-  width: 100%;
-  max-width: var(--max-column);
-  padding-inline: var(--sp-40);
 }
 
 /* TABLETS */

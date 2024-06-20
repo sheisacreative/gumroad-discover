@@ -21,6 +21,10 @@
   /* Margin and Gaps*/
   --max-column: 1200px;
   --grid-gap: var(--sp-16);
+
+  /* Border radius */
+  --border-radius-full: 999px;
+  --border-radius-small: 4px;
 }
 
 @media (max-width: 1340px) {

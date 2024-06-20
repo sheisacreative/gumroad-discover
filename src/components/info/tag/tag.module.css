@@ -1,0 +1,17 @@
+.tag {
+  border: none;
+  border-radius: var(--border-radius-full);
+  padding-inline: var(--sp-16);
+  padding-block: var(--sp-8);
+  background-color: transparent;
+  transition: all 200ms ease-out;
+}
+
+.tag:hover {
+  background-color: var(--base-0);
+}
+
+.isActive {
+  background-color: var(--base-0);
+  border: var(--border-small);
+}
