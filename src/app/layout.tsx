@@ -1,6 +1,8 @@
 import localFont from "next/font/local";
 import type { Metadata } from "next";
 import "@/styles/globals.css";
+import NavigationBar from "@/components/navigation/bar/navigation-bar";
+import SearchBar from "@/components/navigation/bar/search-bar";
 
 const mabryPro = localFont({
   src: [
@@ -30,7 +32,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={mabryPro.className}>{children}</body>
+      <body className={mabryPro.className}>
+        <NavigationBar />
+        <SearchBar />
+        {children}
+      </body>
     </html>
   );
 }
