@@ -1,0 +1,36 @@
+.inputContainar {
+  display: flex;
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.input {
+  width: 100%;
+  border-radius: 4px;
+  padding-block: var(--sp-16);
+  padding-inline-start: var(--sp-48);
+  padding-inline-end: var(--sp-24);
+  text-overflow: ellipsis;
+  border: solid 2px var(--base-90);
+  transition: border 200ms ease-out;
+}
+
+.input:focus {
+  outline: none !important;
+  border: solid 2px var(--base-100);
+}
+
+.input:focus + .icon {
+  color: var(--base-100);
+}
+
+.icon {
+  position: absolute;
+  color: var(--base-40);
+  left: var(--sp-8);
+  top: 16px;
+  left: 16px;
+  width: 24px;
+  height: 24px;
+  transition: color 200ms ease-out;
+}
