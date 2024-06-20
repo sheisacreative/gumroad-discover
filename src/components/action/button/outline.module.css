@@ -1,0 +1,18 @@
+.button {
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--base-100);
+  background-color: var(--base-0));
+  padding-inline: var(--sp-80);
+  width: fit-content;
+  height: var(--h-medium);
+  text-decoration: none;
+  box-shadow: inset 0px 0px 0px 4px var(--base-100);
+  transition: all 200ms ease-out;
+}
+
+.button:hover {
+  background-color: var(--primary-90);
+}

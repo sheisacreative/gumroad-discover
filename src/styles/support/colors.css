@@ -1,5 +1,6 @@
 :root {
   /* Primary */
+  --primary-90: hsl(312, 100%, 80%);
   --primary-100: #ff90e8;
   --primary-110: #f76edb;
 
@@ -10,6 +11,7 @@
   /* Base */
   --base-0: #ffffff;
   --base-20: #f4f4f0;
-  --base-40: #9c9c;
+  --base-40: #999999;
+  --base-90: #1a1a1a;
   --base-100: #000000;
 }

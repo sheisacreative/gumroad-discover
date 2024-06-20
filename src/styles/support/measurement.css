@@ -15,8 +15,8 @@
   --sp-360: 360px;
 
   /* Height */
-  --h-medium: 48px;
-  --h-big: 56px;
+  --h-medium: var(--sp-64);
+  /* --h-big: 56px; */
 
   /* Margin and Gaps*/
   --screen-margin: var(--sp-360);

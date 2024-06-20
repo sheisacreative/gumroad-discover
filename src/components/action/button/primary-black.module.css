@@ -1,0 +1,17 @@
+.button {
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--base-0);
+  background-color: var(--base-100);
+  padding-inline: var(--sp-80);
+  width: fit-content;
+  height: var(--h-medium);
+  text-decoration: none;
+  transition: all 200ms ease-out;
+}
+
+.button:hover {
+  background-color: var(--base-90);
+}
