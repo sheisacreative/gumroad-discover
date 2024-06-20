@@ -19,7 +19,7 @@
   /* --h-big: 56px; */
 
   /* Margin and Gaps*/
-  --screen-margin: var(--sp-360);
+  --max-column: 1200px;
   --grid-gap: var(--sp-16);
 }
 

@@ -9,10 +9,10 @@
   width: fit-content;
   height: var(--h-medium);
   text-decoration: none;
-  box-shadow: inset 0px 0px 0px 4px var(--base-100);
+  border: var(--border-medium);
   transition: all 200ms ease-out;
 }
 
 .button:hover {
-  background-color: var(--primary-90);
+  background-color: var(--base-20);
 }
