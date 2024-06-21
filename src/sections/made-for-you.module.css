@@ -5,3 +5,17 @@
   padding-block-end: var(--sp-120);
   border-bottom: var(--border-medium);
 }
+
+/* SMALL SCREENS */
+@media (max-width: 1200px) {
+  .madeForYou {
+    margin: 0;
+    padding-block: var(--sp-40);
+  }
+}
+/* TABLETS */
+@media (max-width: 1000px) {
+}
+/* MOBILE */
+@media (max-width: 560px) {
+}
