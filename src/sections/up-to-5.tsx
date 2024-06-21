@@ -1,7 +1,7 @@
 export default async function UpTo5() {
   return (
-    <div>
+    <section>
       <h1>Sections</h1>
-    </div>
+    </section>
   );
 }

@@ -30,7 +30,7 @@ export default async function ProductCard({ product }: { product: Product }) {
       {/* Content */}
       <div className={styles.content}>
         <h2 className="body-large">{title}</h2>
-        <Link href="#" className={styles.userContainer}>
+        <Link href={userLink} className={styles.userContainer}>
           <Image
             src={userPhoto}
             width={80}
@@ -47,15 +47,18 @@ export default async function ProductCard({ product }: { product: Product }) {
         </div>
       </div>
 
+      {/* TODO: fix flag color (yellow when 0) and border */}
+      {/* TODO: transform flag in component */}
       {/* Price */}
       <div className={styles.priceContainer}>
-        <div className={`body-large ${styles.price}`}>${product.price}</div>
+        <div className={`body-large ${styles.price}`}>${price}</div>
         <Image
           src={"/other/flag-corner.svg"}
           width="32"
           height="40"
           alt=""
           className={styles.priceFlagCorner}
+          style={{ backgroundColor: "#fff" }}
         />
       </div>
     </div>

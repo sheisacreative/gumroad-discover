@@ -1,7 +1,7 @@
 export default async function CallToAction() {
   return (
-    <div>
+    <section>
       <h1>Sections</h1>
-    </div>
+    </section>
   );
 }

@@ -1,6 +1,4 @@
-import TagUser from "@/components/info/tag/tag-user";
 import { fromThisCreator } from "@/content/from-this-creator";
-import Link from "next/link";
 import styles from "./hero.module.css";
 import Image from "next/image";
 import ProductCardList from "@/components/action/card/product-card-list";
