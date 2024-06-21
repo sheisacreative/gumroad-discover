@@ -19,4 +19,5 @@
   background-color: var(--primary-100);
   border: var(--border-medium);
   padding: var(--sp-40);
+  box-shadow: var(--sp-8) var(--sp-8) 0px 0px var(--base-100);
 }

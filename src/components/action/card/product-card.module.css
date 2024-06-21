@@ -1,4 +1,6 @@
 .card {
+  display: flex;
+  flex-direction: column;
   background-color: var(--base-0);
   border: var(--border-small);
 }
@@ -10,6 +12,7 @@
 
 .content {
   display: flex;
+  flex: 1;
   flex-direction: column;
   padding: var(--sp-16);
   gap: var(--sp-16);

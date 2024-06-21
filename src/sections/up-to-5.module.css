@@ -1,0 +1,5 @@
+.upTo5 {
+  padding-block: var(--sp-120);
+  background-color: var(--secondary-blue);
+  border-top: var(--border-medium);
+}

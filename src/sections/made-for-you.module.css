@@ -1,0 +1,7 @@
+.madeForYou {
+  margin-block-start: -320px;
+  padding-block-start: calc(320px + var(--sp-120));
+  background-color: var(--base-20);
+  padding-block-end: var(--sp-120);
+  border-bottom: var(--border-medium);
+}
