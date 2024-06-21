@@ -40,15 +40,24 @@ export default async function ProductCard({ product }: { product: Product }) {
           />
           <p>{user}</p>
         </Link>
-        <div>
-          <IconStarFilled />
+        <div className={`body-medium ${styles.starRating}`}>
+          <IconStarFilled className={styles.starIcon} />
           <p>{stars}</p>
           <p>({totalReviews})</p>
         </div>
       </div>
 
       {/* Price */}
-      <p>${product.price}</p>
+      <div className={styles.priceContainer}>
+        <div className={`body-large ${styles.price}`}>${product.price}</div>
+        <Image
+          src={"/other/flag-corner.svg"}
+          width="32"
+          height="40"
+          alt=""
+          className={styles.priceFlagCorner}
+        />
+      </div>
     </div>
   );
 }

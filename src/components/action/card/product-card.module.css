@@ -5,10 +5,15 @@
 
 .image {
   width: 100%;
+  border-bottom: var(--border-small);
 }
 
 .content {
+  display: flex;
+  flex-direction: column;
   padding: var(--sp-16);
+  gap: var(--sp-16);
+  border-bottom: var(--border-small);
 }
 
 .userContainer {
@@ -21,4 +26,36 @@
   width: var(--sp-32);
   height: var(--sp-32);
   border-radius: var(--border-radius-full);
+}
+
+.starRating {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-8);
+}
+
+.starIcon {
+  width: 16px;
+  margin-top: -2px;
+}
+
+.priceContainer {
+  display: flex;
+  padding: var(--sp-16);
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  padding-inline: var(--sp-16);
+  height: 48px;
+  background-color: var(--primary-100);
+}
+
+.priceFlagCorner {
+  height: 48px;
+}
+
+.flag {
+  box-shadow: 0 0 0 4px green;
 }

@@ -1,9 +1,9 @@
-import ProductCard from "@/components/action/card/product-card";
 import TagUser from "@/components/info/tag/tag-user";
 import { fromThisCreator } from "@/content/from-this-creator";
 import Link from "next/link";
 import styles from "./hero.module.css";
 import Image from "next/image";
+import ProductCardList from "@/components/action/card/product-card-list";
 
 export default async function Hero() {
   return (
@@ -24,21 +24,15 @@ export default async function Hero() {
 
       {/* Products */}
       <div className={`container ${styles.productsBox}`}>
-        {/* Title */}
-        <div className={styles.titleContainer}>
-          <div className={styles.title}>
-            <h1>Products from this creator</h1>
-            <TagUser />
-          </div>
-          <Link href={"#"}>View all Products</Link>
-        </div>
-
         {/* Product List */}
-        <div className={`grid-auto-inline ${styles.productsList}`}>
-          {fromThisCreator.map((product) => {
-            return <ProductCard key={product.id} product={product} />;
-          })}
-        </div>
+        <ProductCardList
+          products={fromThisCreator}
+          showTitle
+          title="Products from this creator"
+          hasTag
+          linkTitle="View all Products"
+          link="#"
+        />
       </div>
     </section>
   );

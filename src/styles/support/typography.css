@@ -3,8 +3,8 @@ body {
   font-family: var(--font-sans);
 }
 
-/* HEADING */
-.heading-large {
+/* TITLE */
+.title-large {
   font-family: var(--font-sans);
   font-size: clamp(3rem, 2.4rem + 2.4vw, 3rem);
   font-style: normal;

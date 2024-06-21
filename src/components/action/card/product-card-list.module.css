@@ -1,0 +1,10 @@
+.titleContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sp-8, 8px);
+}
