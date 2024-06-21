@@ -1,4 +1,3 @@
-import { IconArrowAutofitContent, IconSearch } from "@tabler/icons-react";
 import { ReactNode } from "react";
 import styles from "./search.module.css";
 
@@ -14,7 +13,6 @@ export default async function InputSearch({
   icon,
   ...props
 }: InputSearchProps) {
-  // return <input type="search" placeholder={placeholder} {...props} />;
   return (
     <div>
       <div className={styles.inputContainar}>
