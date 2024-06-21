@@ -7,6 +7,10 @@ import UpTo5 from "@/sections/up-to-5";
 export default function Home() {
   return (
     <main>
+      {/* Hidden title */}
+      <h1 style={{ display: "none" }}>Gumroad Discover Page</h1>
+
+      {/* Sections */}
       <Hero />
       <MadeForYou />
       <StaffPicks />

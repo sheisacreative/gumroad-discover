@@ -33,8 +33,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={mabryPro.className}>
-        <NavigationBar />
-        <SearchBar />
+        <header>
+          <NavigationBar />
+          <SearchBar />
+        </header>
         {children}
       </body>
     </html>

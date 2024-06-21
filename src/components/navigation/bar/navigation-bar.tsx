@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default async function NavigationBar() {
   return (
-    <header className={styles.header}>
+    <section className={styles.header}>
       {/* Brand */}
       <Image
         src={"/brand/gumroad.svg"}
@@ -46,6 +46,6 @@ export default async function NavigationBar() {
         />
         <ButtonPrimaryBlack text="Start Selling" href="#" />
       </div>
-    </header>
+    </section>
   );
 }

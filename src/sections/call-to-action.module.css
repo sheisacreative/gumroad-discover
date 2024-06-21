@@ -1,0 +1,19 @@
+.ctaContainer {
+  padding-block: var(--sp-80);
+  background-color: var(--base-100);
+  color: var(--primary-100);
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-40);
+}
+
+.actionButton {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-24);
+  margin: 0 auto;
+}

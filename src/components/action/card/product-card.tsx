@@ -29,7 +29,7 @@ export default async function ProductCard({ product }: { product: Product }) {
 
       {/* Content */}
       <div className={styles.content}>
-        <h2 className="body-large">{title}</h2>
+        <h3 className="body-large">{title}</h3>
         <Link href={userLink} className={styles.userContainer}>
           <Image
             src={userPhoto}
