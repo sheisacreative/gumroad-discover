@@ -6,6 +6,7 @@
 
 .titleContainer {
   display: flex;
+  gap: var(--sp-24);
   align-items: center;
   justify-content: space-between;
 }
@@ -18,4 +19,18 @@
 
 .buttonGroup {
   margin: var(--sp-24) auto 0 auto;
+}
+
+/* TABLETS */
+@media (max-width: 1000px) {
+  .tagUser {
+    display: none;
+  }
+}
+
+/* MOBILE */
+@media (max-width: 560px) {
+  .titleContainer a {
+    text-align: right;
+  }
 }

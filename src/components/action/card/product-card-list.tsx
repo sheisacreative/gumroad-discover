@@ -37,7 +37,11 @@ export default async function ProductCardList({
         <div className={styles.titleContainer}>
           <div className={styles.title}>
             <h2 className={`title-${titleSize}`}>{title}</h2>
-            {hasTag && <TagUser />}
+            {hasTag && (
+              <div className={styles.tagUser}>
+                <TagUser />
+              </div>
+            )}
           </div>
           {link && <Link href={link}>{linkTitle}</Link>}
         </div>

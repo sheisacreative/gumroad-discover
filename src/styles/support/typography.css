@@ -6,7 +6,7 @@ body {
 /* DISPLAY MEDIUM */
 .display-medium {
   font-family: var(--font-sans);
-  font-size: clamp(4rem, 2.4rem + 2.4vw, 6rem);
+  font-size: clamp(3rem, 0.632rem + 6.316vw, 6rem);
   font-style: normal;
   font-weight: 400;
   line-height: 120%;
@@ -15,7 +15,7 @@ body {
 /* TITLE */
 .title-large {
   font-family: var(--font-sans);
-  font-size: clamp(3rem, 2.4rem + 2.4vw, 3rem);
+  font-size: clamp(2rem, 1.211rem + 2.105vw, 3rem);
   font-style: normal;
   font-weight: 500;
   line-height: 150%;
@@ -23,7 +23,7 @@ body {
 
 .title-medium {
   font-family: var(--font-sans);
-  font-size: clamp(1.5rem, 2.4rem + 0.4vw, 1.5rem);
+  font-size: clamp(1.25rem, 0.605rem + 1.053vw, 1.5rem);
   font-style: normal;
   font-weight: 500;
   line-height: 150%;
@@ -31,7 +31,7 @@ body {
 
 .title-small {
   font-family: var(--font-sans);
-  font-size: clamp(1.25rem, 1.6rem + 0.4vw, 1.25rem);
+  font-size: clamp(0.875rem, 0.579rem + 0.789vw, 1.25rem);
   font-style: normal;
   font-weight: 500;
   line-height: 150%;
@@ -39,7 +39,7 @@ body {
 
 .title-extra-small {
   font-family: var(--font-sans);
-  font-size: clamp(1rem, 1rem + 0.8vw, 1rem);
+  font-size: clamp(0.75rem, 0.553rem + 0.526vw, 1rem);
   font-style: normal;
   font-weight: 500;
   line-height: 150%;
@@ -48,7 +48,7 @@ body {
 /* BODY */
 .body-large {
   font-family: var(--font-sans);
-  font-size: clamp(1.5rem, 1.7rem + 1.1vw, 1.5rem);
+  font-size: clamp(1.15rem, 0.605rem + 1.053vw, 1.5rem);
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
@@ -56,7 +56,7 @@ body {
 
 .body-medium {
   font-family: var(--font-sans);
-  font-size: clamp(1rem, 1.4rem + 0.4vw, 1rem);
+  font-size: clamp(0.75rem, 0.553rem + 0.526vw, 1rem);
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
@@ -64,7 +64,7 @@ body {
 
 .body-small {
   font-family: var(--font-sans);
-  font-size: clamp(0.875rem, 0.9rem + 0.4vw, 0.875rem);
+  font-size: 0.875rem;
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
@@ -72,7 +72,7 @@ body {
 
 .body-extra-small {
   font-family: var(--font-sans);
-  font-size: clamp(0.75rem, 0.8rem + 0.2vw, 0.75rem);
+  font-size: 0.75rem;
   font-style: normal;
   font-weight: 400;
   line-height: 150%;

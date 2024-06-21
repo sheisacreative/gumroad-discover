@@ -7,10 +7,12 @@
 .searchGroup {
   display: flex;
   gap: var(--sp-8);
+  margin-bottom: var(--sp-24);
 }
 
 .searchContainer {
   flex: 1;
+  /* height: var(--h-medium); */
 }
 
 .tags {
@@ -24,6 +26,14 @@
 
 /* TABLETS */
 @media (max-width: 1000px) {
+  .discoverSection {
+    padding-block: var(--sp-40);
+  }
+
+  .searchGroup {
+    margin-bottom: 0;
+  }
+
   .categories {
     display: flex;
     gap: var(--sp-8);
@@ -46,6 +56,10 @@
 }
 /* MOBILE */
 @media (max-width: 560px) {
+  .discoverSection {
+    padding-block: var(--sp-24);
+  }
+
   .categoriesText {
     display: none;
   }

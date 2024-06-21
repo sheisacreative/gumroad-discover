@@ -21,3 +21,27 @@
   padding: var(--sp-40);
   box-shadow: var(--sp-8) var(--sp-8) 0px 0px var(--base-100);
 }
+
+/* SMALL SCREENS */
+@media (max-width: 1200px) {
+  .creatorTag {
+    width: 140px;
+    left: var(--sp-40);
+  }
+  .productsBox {
+    margin-top: 0;
+    border-inline: 0;
+    box-shadow: none;
+  }
+}
+
+/* TABLETS */
+@media (max-width: 1000px) {
+}
+
+/* MOBILE */
+@media (max-width: 560px) {
+  .creatorTag {
+    width: 100px;
+  }
+}
