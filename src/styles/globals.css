@@ -20,10 +20,7 @@ html {
 body {
   /* DEFAULT BACKGROUND COLOR */
   background-color: var(--neutral-0);
-
-  /* TODO: Turn on text-wrap balance by the end */
-  /* Better Text Wrap (**Still with low support**) */
-  /* text-wrap: balance; */
+  text-wrap: balance;
 }
 
 /* MAKE IMAGE RESPONSIVE */

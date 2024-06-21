@@ -1,0 +1,9 @@
+.priceContainer {
+  position: relative;
+}
+
+.price {
+  position: absolute;
+  top: var(--sp-4);
+  left: var(--sp-8);
+}

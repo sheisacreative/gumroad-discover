@@ -15,8 +15,8 @@
   --sp-360: 360px;
 
   /* Height */
+  --h-small: var(--sp-40);
   --h-medium: var(--sp-64);
-  /* --h-big: 56px; */
 
   /* Margin and Gaps*/
   --max-column: 1200px;

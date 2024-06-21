@@ -3,6 +3,7 @@ import styles from "./product-card.module.css";
 import Image from "next/image";
 import { IconStarFilled } from "@tabler/icons-react";
 import Link from "next/link";
+import Price from "@/components/info/price/price";
 
 export default async function ProductCard({ product }: { product: Product }) {
   const {
@@ -47,19 +48,9 @@ export default async function ProductCard({ product }: { product: Product }) {
         </div>
       </div>
 
-      {/* TODO: fix flag color (yellow when 0) and border */}
-      {/* TODO: transform flag in component */}
       {/* Price */}
       <div className={styles.priceContainer}>
-        <div className={`body-large ${styles.price}`}>${price}</div>
-        <Image
-          src={"/other/flag-corner.svg"}
-          width="32"
-          height="40"
-          alt=""
-          className={styles.priceFlagCorner}
-          style={{ backgroundColor: "#fff" }}
-        />
+        <Price price={price} />
       </div>
     </div>
   );

@@ -1,0 +1,28 @@
+.tag {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-8);
+  height: var(--h-small);
+  margin-top: -2px;
+  padding-inline-start: var(--sp-8);
+  padding-inline-end: var(--sp-16);
+  background-color: var(--base-0);
+  border: var(--border-small);
+  border-radius: var(--border-radius-full);
+  box-shadow: 2px 2px 0px 0px var(--base-100);
+}
+
+.brandContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: var(--border-radius-full);
+  background-color: var(--primary-100);
+  box-shadow: 2px 2px 0px 0px var(--base-100);
+}
+
+.brand {
+  width: 12px;
+}
