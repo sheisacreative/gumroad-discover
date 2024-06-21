@@ -8,8 +8,8 @@ body {
   font-family: var(--font-sans);
   font-size: clamp(4rem, 2.4rem + 2.4vw, 6rem);
   font-style: normal;
-  font-weight: 500;
-  line-height: 150%;
+  font-weight: 400;
+  line-height: 120%;
 }
 
 /* TITLE */

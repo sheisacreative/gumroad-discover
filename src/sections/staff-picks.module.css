@@ -1,0 +1,44 @@
+.staffSection {
+  display: flex;
+}
+
+.titleContainer {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  background-color: var(--primary-100);
+  border-inline-end: var(--border-medium);
+  padding-inline-start: var(--sp-80);
+  padding-inline-end: var(--sp-200);
+}
+
+.title {
+  max-width: 400px;
+}
+
+.cardsContainer {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
+  background-color: var(--secondary-yellow);
+  padding-block-start: var(--sp-40);
+  padding-block-end: var(--sp-64);
+}
+
+.cardsContent {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-16);
+  align-items: flex-end;
+  width: 100%;
+  margin-inline-start: calc((((100vw - var(--max-column)) / 2) + 32px) * -1);
+}
+
+.cardsTitleContainer {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-24);
+}
