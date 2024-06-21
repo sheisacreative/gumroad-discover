@@ -1,6 +1,7 @@
 import styles from "./navigation-bar.module.css";
 import ButtonOutline from "@/components/action/button/outline";
 import ButtonPrimaryBlack from "@/components/action/button/primary-black";
+import { IconMenu2 } from "@tabler/icons-react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -17,7 +18,7 @@ export default async function NavigationBar() {
       />
 
       {/* Navigation */}
-      <nav>
+      <nav className={styles.navigationContainer}>
         <ul className={styles.navigationList}>
           <li>
             <Link href={"#"}>Features</Link>
@@ -38,13 +39,20 @@ export default async function NavigationBar() {
 
       {/* Buttons */}
       <div className={styles.buttonGroup}>
-        <ButtonOutline
-          text="Login"
-          href="#"
-          hasBottomBorder={false}
-          hasTopBorder={false}
-        />
-        <ButtonPrimaryBlack text="Start Selling" href="#" />
+        <div className={styles.outlineButton}>
+          <ButtonOutline
+            text="Login"
+            href="#"
+            hasBottomBorder={false}
+            hasTopBorder={false}
+          />
+        </div>
+        <div className={styles.primaryButton}>
+          <ButtonPrimaryBlack text="Start Selling" href="#" />
+        </div>
+        <div className={styles.hamburgerMenu}>
+          <IconMenu2 className={styles.menuIcon} />
+        </div>
       </div>
     </section>
   );

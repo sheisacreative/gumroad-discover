@@ -13,6 +13,7 @@ export default async function ButtonOutline({
   href,
   hasBottomBorder = true,
   hasTopBorder = true,
+  ...props
 }: ButtonBlackProps) {
   return (
     <Link
@@ -22,6 +23,7 @@ export default async function ButtonOutline({
         borderBottom: !hasBottomBorder ? "none" : "",
         borderTop: !hasTopBorder ? "none" : "",
       }}
+      {...props}
     >
       {text}
     </Link>
