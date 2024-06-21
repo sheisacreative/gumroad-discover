@@ -3,3 +3,16 @@
   background-color: var(--secondary-blue);
   border-top: var(--border-medium);
 }
+
+/* SMALL SCREENS */
+@media (max-width: 1360px) {
+  .upTo5 {
+    padding-block: var(--sp-40);
+  }
+}
+/* TABLETS */
+@media (max-width: 1000px) {
+}
+/* MOBILE */
+@media (max-width: 560px) {
+}
