@@ -49,6 +49,7 @@
     background-color: var(--base-100);
     border-inline-start: solid 1px var(--base-0);
     min-height: var(--sp-48);
+    cursor: pointer;
   }
 
   .menuIcon {
