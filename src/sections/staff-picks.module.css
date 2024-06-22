@@ -8,7 +8,7 @@
   width: 50%;
   background-color: var(--primary-100);
   border-inline-end: var(--border-medium);
-  padding-inline-start: var(--sp-80);
+  padding-inline-start: var(--sp-200);
   padding-inline-end: var(--sp-200);
 }
 
@@ -31,7 +31,9 @@
   gap: var(--sp-16);
   align-items: flex-end;
   width: 100%;
-  margin-inline-start: calc((((100vw - var(--max-column)) / 2) + 32px) * -1);
+  max-width: 840px;
+  margin-inline-start: calc(var(--sp-120) * -1);
+  /* margin-inline-start: calc((((100vw - var(--max-column)) / 2)) * -1); */
 }
 
 .cardsTitleContainer {
