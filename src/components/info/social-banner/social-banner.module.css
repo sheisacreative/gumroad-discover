@@ -1,0 +1,31 @@
+.bannerSocialSection {
+  position: fixed;
+  width: 100%;
+  height: var(--h-medium);
+  color: var(--base-100);
+  background-color: var(--base-20);
+  border-bottom: var(--border-medium);
+  z-index: 100;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.linksList {
+  display: flex;
+  gap: var(--sp-24);
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+
+.content a {
+  transition: color 200ms ease-out;
+}
+
+.content a:hover {
+  color: var(--primary-110);
+}

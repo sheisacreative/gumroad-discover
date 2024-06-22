@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import "@/styles/globals.css";
 import NavigationBar from "@/components/navigation/bar/navigation-bar";
 import DiscoverNavigation from "@/components/navigation/bar/search-bar";
+import SocialBanner from "@/components/info/social-banner/social-banner";
 
 const mabryPro = localFont({
   src: [
@@ -34,6 +35,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={mabryPro.className}>
         <header>
+          <SocialBanner />
           <NavigationBar />
           <DiscoverNavigation />
         </header>
