@@ -6,7 +6,7 @@ export default async function SocialBanner() {
     <section className={styles.bannerSocialSection}>
       <div className={`container ${styles.content}`}>
         <p>
-          This (non-oficial) website was created by Maiane Gabriele (
+          By Maiane Gabriele (
           <a href="https://www.linkedin.com/in/sheisacreative/">
             @sheisacreative
           </a>
@@ -15,7 +15,7 @@ export default async function SocialBanner() {
         <ul className={styles.linksList}>
           <li>
             <a href="https://github.com/sheisacreative/gumroad-discover/tree/main">
-              Github Repository
+              Github
             </a>{" "}
           </li>
           <li>
