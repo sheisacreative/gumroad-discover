@@ -3,7 +3,7 @@
 ## Project Overview
 
 - Design proposal for a new Discover page for Gumroad (non-official) 
-- [View Live Website](https://sheisacreative.vercel.app/)
+- [View Live Website](https://gumroad-discover.vercel.app/)
 
 ## Goals
 
@@ -43,6 +43,7 @@ The website shouldn't look like a boring products list.
     - `page.tsx`: the page to be rendered on this route segment.
     - `layout.tsx`: layout for this specific page and its childs.
 - `components`: resusable components.
+- `sections`: each website section.
 - `content`: website data.
 - `public`: images and other public assets.
 - `styles`: variables, global and reset styles.
